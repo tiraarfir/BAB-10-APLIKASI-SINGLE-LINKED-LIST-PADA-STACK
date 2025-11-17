@@ -1,0 +1,18 @@
+Definisi
+LIFO adalah aturan pengolahan data di mana elemen yang terakhir masuk (input) akan menjadi elemen yang pertama keluar (output).
+Jadi urutan keluarnya data adalah kebalikan dari urutan masuknya.
+
+Ciri-ciri konsep LIFO:
+1.Data ditumpuk bertahap dari bawah ke atas.
+2.Elemen teratas adalah elemen yang paling baru dimasukkan.
+3.Operasi pengambilan hanya boleh dilakukan pada bagian paling atas.
+4.Tidak ada akses langsung ke elemen di tengah atau bawah.
+
+Analoginya:
+LIFO bisa diibaratkan seperti tumpukan piring: piring yang terakhir diletakkan di atas adalah piring yang pertama kali diambil. Kamu hanya bisa menambah atau mengambil dari bagian atas, sehingga elemen yang paling baru masuk selalu menjadi yang pertama keluar
+
+Implementasi LIFO dalam struktur data:
+1.Konsep LIFO diterapkan dalam Stack, yaitu struktur data yang menyediakan operasi:
+2.PUSH (menambah item baru ke atas stack),
+3.POP (menghapus item teratas),
+4.PEEK/TOP (melihat nilai paling atas tanpa menghapus).

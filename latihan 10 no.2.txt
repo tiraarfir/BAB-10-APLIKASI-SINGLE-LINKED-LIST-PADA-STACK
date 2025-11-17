@@ -1,0 +1,17 @@
+Definisi
+FIFO adalah aturan pengolahan data di mana elemen yang pertama masuk adalah elemen yang pertama keluar.
+Urutan keluar sama persis dengan urutan masuk.
+
+Ciri-ciri konsep FIFO:
+1.Data masuk dari satu ujung dan keluar dari ujung lainnya.
+2.Elemen paling awal akan diproses lebih dahulu.
+3.Tidak ada elemen yang bisa "menyela" antrian.
+4.Akses hanya di dua sisi: FRONT (keluar) dan REAR (masuk).
+
+Analoginya:
+FIFO mirip dengan antrian di loket: orang yang datang paling awal akan dilayani terlebih dahulu. Urutan keluarnya sama persis dengan urutan masuknya, sehingga tidak ada yang bisa “menyela” dari belakang.
+
+Implementasi FIFO dalam struktur data:
+1.FIFO digunakan dalam Queue, dengan operasi:
+2.ENQUEUE → menambah data ke bagian belakang (rear)
+3.DEQUEUE → menghapus data dari bagian depan (front)
